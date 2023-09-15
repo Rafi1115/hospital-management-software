@@ -94,4 +94,22 @@
       }
     }
   }
-  
+
+
+.image-container-slide {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  }
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Add some spacing between images */
+  }
+
+@media (max-width: 768px) {
+    .image {
+      max-width: 50%; /* Adjust the image width for smaller screens */
+    }
+  }
